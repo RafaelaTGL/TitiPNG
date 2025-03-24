@@ -1,0 +1,60 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #2C2C54;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    color: #ECECEC;
+}
+
+.quiz-container {
+    background: #474787;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    color: #ECECEC;
+}
+
+button {
+    background: #ECECEC;
+    color: #2C2C54;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #AAABB8;
+}
+
+.opcao {
+    display: block;
+    background: #ECECEC;
+    color: #2C2C54;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.opcao:hover {
+    background: #AAABB8;
+}
